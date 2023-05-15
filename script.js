@@ -1,4 +1,6 @@
 const form = document.querySelector('#searchForm');
+const div0 = document.querySelector('section');
+const div1 = document.querySelector('container');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -10,7 +12,7 @@ form.addEventListener('submit', async (e) => {
 
 
 const dispTV = (shows) => {
-  for(let result of shows) {
+  for(let result of shows) {  //iterate through search results
     if(result.show.image) {
       const img = document.createElement('img');
       img.src = result.show.image.medium;
