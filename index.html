@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-  <title>A TV Show App</title>
+  <title>A TV Show Search App</title>
 </head>
 <body>
   
   <div class="section">
     <div class="container is-max-widescreen">
-      <h1 class="title">Hmm.. what to watch?</h1>
+      <div class="navbar">
+        <div class="navbar-brand">
+          <img src="https://www.freeiconspng.com/thumbs/television-icon/tv-icon-13.png" alt="tv-logo" width="90">
+          <h1 class="title is-2 pt-5">&lcub; TeeVee &rcub;</h1>
+        </div>
+      </div>
       <form id="searchForm">
         <input class="input is-normal my-2" type="text" placeholder="TV Show Title" name="query">
         <button class="button has-background-success has-text-white">Search</button>

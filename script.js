@@ -8,7 +8,6 @@ form.addEventListener('submit', async (e) => {
   form.elements.query.value = '';
 })
 
-
 const dispTV = (shows) => {
   for(let result of shows) {  //iterate through search results
     if(result.show.image) {
