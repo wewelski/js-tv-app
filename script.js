@@ -1,6 +1,4 @@
 const form = document.querySelector('#searchForm');
-const div0 = document.querySelector('section');
-const div1 = document.querySelector('container');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
